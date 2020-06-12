@@ -1,0 +1,17 @@
+{
+  "name": "NiravPatel/Whishlist",
+  "description": "Enable wihslist filled functionality and add remove from whishlist functionality from any page containing product listing.",
+  "require": {
+    "magento/module-wishlist": "*"
+  },
+  "type": "magento2-module",
+  "license": "GPL-3.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "NiravPatel\\Wishlist\\": ""
+    }
+  }
+}

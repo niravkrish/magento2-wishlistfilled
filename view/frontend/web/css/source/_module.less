@@ -1,0 +1,24 @@
+// /**
+//  * Copyright © Magento, Inc. All rights reserved.
+//  * See COPYING.txt for license details.
+//  */
+
+//
+//  Variables
+//  _____________________________________________
+
+@wishlist-filled: @color-red12;
+
+//
+//  Common
+//  _____________________________________________
+
+& when (@media-common = true) {
+    .product-item .product-item-actions, .product-social-links {
+        .action {
+            &.wishlist-filled {
+                color: @wishlist-filled;
+            }
+        }
+    }
+}
